@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+/* header and body */
+body{
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+}
+ /* cv related */
+
+.cvTitlecolor{
+    color:#088A4B;
+}
+
+.CVstats{
+   text-align:center;   
+}
+
+.progress-bar{
+    background-color: #088A4B;
+}
+
+
+
+
+
+
+#myblog{
+    font-family:Lobster;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.jumbotron {
+    background-image:url(images/background.jpg);
+}
+
+/* style of navbar */
+#navbar{
+    overflow: hidden;
+    background-image:url(images/background.jpg);
+    text-align: center;
+}
+
+#navbar a{
+    float:left;
+    display:block;
+    color:whitesmoke;
+    text-align: center;
+    padding:15px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color:#3B0B17;
+}
+
+
+.navbar{
+    margin-bottom:0px !important;
+}
+
+
+
+/* main */
+
+
+
+#myblog h3{
+    font-size: 40px;
+}
+
+#myblog p{
+    font-size: 20px;
+}
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.ForShadow{
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    box-shadow: 5px 5px 5px grey;
+    padding:20px 20px 20px 20px;
+}
